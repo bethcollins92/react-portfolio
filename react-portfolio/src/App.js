@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
+import Profile from "./components/Profile";
+import Blog from "./components/Blog";
 
 function App() {
   return (
     <div>
-      <h1>Hi I'm Beth, a Full Stack Developer</h1>
+      <Profile />
+      <Blog />
     </div>
   );
 }
