@@ -1,0 +1,14 @@
+.col-8 {
+  background-image: url("../../images/IMG_0141.JPG");
+  background-size: contain;
+}
+
+.col-4 {
+  color: darkslategray;
+}
+
+.circular--square {
+  border-radius: 50%;
+  max-width: 200px;
+  margin-top: 48px;
+}
