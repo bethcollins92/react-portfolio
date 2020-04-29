@@ -12,3 +12,12 @@
   max-width: 200px;
   margin-top: 48px;
 }
+
+.logo {
+  max-width: 30px;
+}
+
+.email {
+  color: darkslategray;
+  font-style: normal;
+}

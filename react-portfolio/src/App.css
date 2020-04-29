@@ -35,9 +35,9 @@
 }
 
 a {
-  color: darkolivegreen !important;
+  color: darkolivegreen;
   font-style: italic;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 #col1 {

@@ -18,6 +18,34 @@ function displayProfile() {
           <p>Resume</p>
           <p>Projects</p>
           <p>Blog</p>
+          <br></br>
+          <p>
+            <a href="https://www.linkedin.com/in/beth-collins-53299119b/">
+              <img
+                className="logo"
+                src="https://i.imgur.com/v2nnzBd.png"
+                alt="linked in logo"
+              ></img>
+            </a>
+          </p>
+          <p>
+            <a href="https://github.com/bethcollins92">
+              <img
+                className="logo"
+                src="https://i.imgur.com/I1EEvAE.png"
+                alt="linked in logo"
+              ></img>
+            </a>
+          </p>
+          <br></br>
+          <p>
+            <h6 className="email">
+              <span role="img" aria-label="wave">
+                ✉️:
+              </span>
+              bethcollinsliv92@gmail.com
+            </h6>
+          </p>
         </div>
         <div className="col-8"></div>
       </div>
