@@ -9,7 +9,43 @@ export default function Modal(props) {
   return (
     <div className={showHideClassName}>
       <section className="modal-main">{props.children}</section>
-      <div></div>
+      <div className="card shadow mb-3">
+        <div className="row no-gutters">
+          <div className="col md-4">
+            <img
+              src="https://i.imgur.com/g16szXj.jpg?1"
+              className="card-img"
+              alt="Beth"
+            />
+          </div>
+          <div className="col-md-8">
+            <div className="card-body card-shadow">
+              <h4 className="card-title">
+                Hi! I'm Beth, a Full Stack Developer{" "}
+                <span role="img" aria-label="wave">
+                  👋🏽
+                </span>
+              </h4>
+              <p className="card-text">
+                Feel free to dive into my you can read a bit about me and see
+                some of my projects.
+              </p>
+              <p className="card-text">
+                Or here you can visit my . It's great to meet you!
+              </p>
+              {/* <p className="card-text">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </p> */}
+              <img
+                className="plant"
+                src="https://i.imgur.com/gFMFPSs.png"
+                alt="plant"
+              ></img>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <button id="close-modal" onClick={props.handleClose}>
         close
       </button>

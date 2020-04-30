@@ -1,10 +1,10 @@
 import React from "react";
 
-function displayBlogs() {
+function DisplayBlogs() {
   return (
     <div>
       <h1>This is the blog page</h1>
     </div>
   );
 }
-export default displayBlogs;
+export default DisplayBlogs;

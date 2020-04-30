@@ -26,10 +26,18 @@ export default function DisplayProfile(props) {
             ></img>
           </div>
           <br></br>
-          <p>About me</p>
+          <p>
+            <Link className="link" to="/aboutme">
+              About me
+            </Link>
+          </p>
           <p onClick={showModal}>Resume</p>
           <Modal showModal={isShowModal} handleClose={hideModal} />
-          <p>Projects</p>
+          <p>
+            <Link className="link" to="/projects">
+              Projects
+            </Link>
+          </p>
           <p>
             <Link className="link" to="/blog">
               Blog
@@ -55,14 +63,13 @@ export default function DisplayProfile(props) {
             </a>
           </p>
           <br></br>
-          <p>
-            <h6 className="email">
-              <span role="img" aria-label="wave">
-                ✉️:
-              </span>
-              bethcollinsliv92@gmail.com
-            </h6>
-          </p>
+
+          <h6 className="email">
+            <span role="img" aria-label="wave">
+              ✉️:
+            </span>
+            bethcollinsliv92@gmail.com
+          </h6>
         </div>
         <div className="col-8"></div>
       </div>
