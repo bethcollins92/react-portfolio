@@ -4,16 +4,7 @@ import Modal from "./Modal";
 import { Link } from "react-router-dom";
 
 export default function DisplayProfile(props) {
-  const [isShowModal, setIsShowModal] = useState(false);
-
-  const showModal = () => {
-    setIsShowModal(true);
-  };
-
-  const hideModal = () => {
-    setIsShowModal(false);
-  };
-
+  const [resumeUrl, setResumeUrl] = useState("https://i.imgur.com/E4cqlck.png");
   return (
     <div className="container">
       <div className="row">
@@ -21,7 +12,7 @@ export default function DisplayProfile(props) {
           <div>
             <img
               className="circular--square"
-              src="https://i.imgur.com/Y0cbrLW.jpg"
+              src="https://i.imgur.com/FnLCjGL.jpg"
               alt="portrait"
             ></img>
           </div>
@@ -31,8 +22,14 @@ export default function DisplayProfile(props) {
               About me
             </Link>
           </p>
-          <p onClick={showModal}>Resume</p>
-          <Modal showModal={isShowModal} handleClose={hideModal} />
+          <p
+            className="resume"
+            data-toggle="modal"
+            data-target="#exampleModalLong"
+          >
+            Resume
+          </p>
+          <Modal resume={resumeUrl} />
           <p>
             <Link className="link" to="/projects">
               Projects

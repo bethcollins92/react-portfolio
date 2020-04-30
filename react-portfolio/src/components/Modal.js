@@ -2,53 +2,51 @@ import React from "react";
 import "./styling/Modal.css";
 
 export default function Modal(props) {
-  const showHideClassName = props.showModal
-    ? "modal display-block"
-    : "modal display-none";
-
   return (
-    <div className={showHideClassName}>
-      <section className="modal-main">{props.children}</section>
-      <div className="card shadow mb-3">
-        <div className="row no-gutters">
-          <div className="col md-4">
-            <img
-              src="https://i.imgur.com/g16szXj.jpg?1"
-              className="card-img"
-              alt="Beth"
-            />
+    <div
+      className="modal fade"
+      id="exampleModalLong"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div className="modal-dialog modal-xl" role="document">
+        <div className="modal-content">
+          <div className="modal-header">
+            <h5 className="modal-title" id="exampleModalLongTitle">
+              Resume
+            </h5>
+            <button
+              type="button"
+              className="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-          <div className="col-md-8">
-            <div className="card-body card-shadow">
-              <h4 className="card-title">
-                Hi! I'm Beth, a Full Stack Developer{" "}
-                <span role="img" aria-label="wave">
-                  👋🏽
-                </span>
-              </h4>
-              <p className="card-text">
-                Feel free to dive into my you can read a bit about me and see
-                some of my projects.
-              </p>
-              <p className="card-text">
-                Or here you can visit my . It's great to meet you!
-              </p>
-              {/* <p className="card-text">
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </p> */}
-              <img
-                className="plant"
-                src="https://i.imgur.com/gFMFPSs.png"
-                alt="plant"
-              ></img>
-            </div>
+          <div className="modal-body">
+            {props.resume ? (
+              <img src={props.resume} alt="resume"></img>
+            ) : (
+              `This is the body`
+            )}
+          </div>
+          <div className="modal-footer">
+            <button
+              type="button"
+              className="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" className="btn btn-primary">
+              Save changes
+            </button>
           </div>
         </div>
       </div>
-
-      <button id="close-modal" onClick={props.handleClose}>
-        close
-      </button>
     </div>
   );
 }

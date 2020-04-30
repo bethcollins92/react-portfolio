@@ -32,3 +32,12 @@
   color: darkslategray;
   font-style: normal;
 }
+
+.link:hover {
+  color: darkslategray;
+}
+
+.resume:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
