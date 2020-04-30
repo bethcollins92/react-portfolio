@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styling/Profile.css";
+import Modal from "./Modal";
+import { Link } from "react-router-dom";
 
-function displayProfile() {
+export default function DisplayProfile(props) {
+  const [isShowModal, setIsShowModal] = useState(false);
+
+  const showModal = () => {
+    setIsShowModal(true);
+  };
+
+  const hideModal = () => {
+    setIsShowModal(false);
+  };
+
   return (
     <div className="container">
       <div className="row">
-        <div id="col1" className="col-4">
+        <div className="col-4">
           <div>
             <img
               className="circular--square"
@@ -15,9 +27,14 @@ function displayProfile() {
           </div>
           <br></br>
           <p>About me</p>
-          <p>Resume</p>
+          <p onClick={showModal}>Resume</p>
+          <Modal showModal={isShowModal} handleClose={hideModal} />
           <p>Projects</p>
-          <p>Blog</p>
+          <p>
+            <Link className="link" to="/blog">
+              Blog
+            </Link>
+          </p>
           <br></br>
           <p>
             <a href="https://www.linkedin.com/in/beth-collins-53299119b/">
@@ -52,4 +69,3 @@ function displayProfile() {
     </div>
   );
 }
-export default displayProfile;

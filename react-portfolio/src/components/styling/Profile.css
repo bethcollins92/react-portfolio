@@ -1,3 +1,7 @@
+.container {
+  margin-top: 28px;
+}
+
 .col-8 {
   background-image: url("../../images/IMG_0141.JPG");
   background-size: contain;
@@ -5,6 +9,8 @@
 
 .col-4 {
   color: darkslategray;
+  background-color: #ffd3b6;
+  height: 650px;
 }
 
 .circular--square {
@@ -18,6 +24,11 @@
 }
 
 .email {
+  color: darkslategray;
+  font-style: normal;
+}
+
+.link {
   color: darkslategray;
   font-style: normal;
 }
