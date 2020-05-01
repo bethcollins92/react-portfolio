@@ -2,7 +2,7 @@
   margin-top: 28px;
 }
 
-.col-8 {
+#background-image {
   background-image: url("../../images/IMG_0141.JPG");
   background-size: contain;
 }

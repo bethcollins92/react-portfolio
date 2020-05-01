@@ -62,13 +62,13 @@ export default function DisplayProfile(props) {
           <br></br>
 
           <h6 className="email">
-            <span role="img" aria-label="wave">
+            <span role="img" aria-label="email">
               ✉️:
             </span>
             bethcollinsliv92@gmail.com
           </h6>
         </div>
-        <div className="col-8"></div>
+        <div id="background-image" className="col-8"></div>
       </div>
     </div>
   );

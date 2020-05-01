@@ -41,9 +41,6 @@ export default function Modal(props) {
             >
               Close
             </button>
-            <button type="button" className="btn btn-primary">
-              Save changes
-            </button>
           </div>
         </div>
       </div>

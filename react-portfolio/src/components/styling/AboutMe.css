@@ -1,0 +1,21 @@
+.background {
+  background-image: url("../../images/IMG_6888\ \(1\)\ copy.jpg");
+  background-size: cover;
+  margin-top: 0px;
+  background-attachment: initial;
+  background-position: center bottom;
+}
+
+.container {
+  font-family: "Manrope", sans-serif;
+  height: 65vw;
+  color: darkslategray;
+}
+
+#first-paragraph {
+  margin-top: 60px;
+}
+
+#back {
+  margin-top: 24px;
+}
