@@ -1,9 +1,15 @@
 import React from "react";
+import "./styling/Projects.css";
 
 export default function Card(props) {
   return (
     <div class="card shadow">
-      <img src={props.image} class="card-img-top" alt={props.alt}></img>
+      <img
+        src={props.image}
+        class="card-img-top"
+        id="project-card"
+        alt={props.alt}
+      ></img>
       <div class="card-body">
         <p class="card-text">
           {props.project}
