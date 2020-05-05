@@ -38,9 +38,9 @@ function DisplayBlogs() {
 
           <div className="col-6">
             <BlogCard
-              blogTitle={data.blogs[0].blog1.title}
-              blogText={data.blogs[0].blog1.body}
-              image={data.blogs[0].blog1.image}
+              blogTitle={data.blogs[0].blog2.title}
+              blogText={data.blogs[0].blog2.body}
+              image={data.blogs[0].blog2.image}
             />
           </div>
         </div>
