@@ -23,7 +23,7 @@ function DisplayAboutMe() {
             </h3>
             <div className="para mb-4">{data.aboutMe[0].paragraph1}</div>
             <div className="para mb-4">{data.aboutMe[0].paragraph2}</div>
-            <div>{data.aboutMe[0].paragraph3}</div>
+            <div className="para mb-4">{data.aboutMe[0].paragraph3}</div>
             <div>
               {" "}
               If you want to know more about my journey into tech, have a listen
