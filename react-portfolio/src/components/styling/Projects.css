@@ -2,3 +2,8 @@
   width: 100%;
   object-fit: contain;
 }
+
+.title {
+  text-align: center;
+  font-size: large;
+}

@@ -1,9 +1,14 @@
 {
   "aboutMe": [
     {
-      "paragraph1": "I'm Beth, a Full Stack Developer from the UK, living in Barcelona🇪🇸. I recently graduated from a Full Stack Bootcamp at CodeOp - the best decision I've ever made. I used to be a dentist 🦷, (possibly holding the title for the youngest ever retired dentist?) before I made the brave leap into tech. I went from problem solving complex treatment plans to problem solving code - it's pretty much the same thing, right?",
+      "paragraph1": "I'm Beth, a Full Stack Developer from the UK, living in Barcelona🇪🇸. I used to be a dentist 🦷, (possibly holding the title for the youngest ever retired dentist?) before I made the brave leap into tech. I recently graduated from a Full Stack Bootcamp at CodeOp - the best decision I've ever made.  I went from problem solving complex treatment plans to problem solving code - it's pretty much the same thing, right?",
       "paragraph2": "I fell in love with the logic and functionality of code and never looked back. We were so lucky in the Bootcamp to gain experience in a wide range of technologies, but I won't bore you with a list - feel free to dive into my Resume, or check out the videos of my projects.👩‍💻",
-      "paragraph3": "'But surely coding isn't all you do?!' I hear you say. Okay, okay, I do have some other hobbies. I love to run, it makes me feel human again. I love to climb, the sense of fear keeps me on my toes. I love eating delicious food with delicious people (my friends). I've been lucky enough to travel to and live in lots of other countries 🇻🇳🇰🇭🇵🇭🇦🇺🇪🇸, which has given me a sense of perspective and gratitude."
+      "paragraph3": "'But surely coding isn't all you do?!' I hear you say. Okay, okay, I do have some other hobbies. I love to run, it helps me start the day with a clear head. I love to climb, the sense of fear and accomplishment is addictive. I love eating delicious food with my favourite people. I've been lucky enough to travel to and live in lots of different countries 🇻🇳🇰🇭🇵🇭🇦🇺🇪🇸, helping me to have an open mind and a sense of perspective."
+    }
+  ],
+  "projects": [
+    {
+      "project1": "Have you ever started on a health journey with all the motivation in the world, but somewhow not managed to keep it up long term? The 'Feel better in 5' app is designed to help time poor people stay healthy. The easier the plan is, the more likely you are to stick to it. Take a look at the video walkthrough of my app, to see the technologies used and the future features I'm currently working on 👉"
     }
   ]
 }
