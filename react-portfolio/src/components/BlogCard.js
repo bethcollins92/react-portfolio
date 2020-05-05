@@ -7,13 +7,15 @@ export default function BlogCard(props) {
         <h5 class="card-title">{props.blogTitle}</h5>
         <p class="card-text">
           {props.blogText}
-          <a href={props.link}>
-            <img
-              className="logo"
-              src="https://i.imgur.com/Hbeg6jh.png"
-              alt="Medium logo"
-            ></img>
-          </a>
+          {props.link && (
+            <a href={props.link}>
+              <img
+                className="logo"
+                src="https://i.imgur.com/Hbeg6jh.png"
+                alt="Medium logo"
+              ></img>
+            </a>
+          )}
         </p>
         <p class="card-text">
           <small class="text-muted">{props.date}</small>

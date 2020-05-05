@@ -4,12 +4,14 @@ import Profile from "./components/Profile";
 import Blog from "./components/Blog";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
+import ScrollToTop from "./components/ScrollToTop";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Switch>
           <Route path="/projects">
             <Projects />
