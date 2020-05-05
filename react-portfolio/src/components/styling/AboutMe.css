@@ -6,12 +6,19 @@
   background-position: center bottom;
 }
 
+.card-body {
+  background-color: #f0f0f0;
+}
+
 .container {
   font-family: "Manrope", sans-serif;
   height: 65vw;
   color: darkslategray;
 }
 
+.title {
+  font-weight: 100;
+}
 #first-paragraph {
   margin-top: 60px;
 }
