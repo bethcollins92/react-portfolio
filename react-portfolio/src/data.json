@@ -8,7 +8,8 @@
   ],
   "projects": [
     {
-      "project1": "Have you ever started on a health journey with all the motivation in the world, but somewhow not managed to keep it up long term? The 'Feel better in 5' app is designed to help time poor people stay healthy. The easier the plan is, the more likely you are to stick to it. Take a look at the video walkthrough of my app, to see the technologies used and the future features I'm currently working on 👉"
+      "project1": "Have you ever started on a health journey with all the motivation in the world, but somewhow not managed to keep it up long term? The 'Feel better in 5' app is designed to help time poor people stay healthy. The easier the plan is, the more likely you are to stick to it. The full stack app was created in a one week sprint, take a look at the video walkthrough to see the technologies used and the future features I'm currently working on.     👉",
+      "project2": "Eco-warriors is an e-commerce site for users to to order ehtically sourced, zero-waste products delivered to their door, sorted into helpful categories. This was a collaborative project, where I was mainly responsible for the JWT authentication, functionality and styling of the products page, the end points and fetch requests. If you want to see more, take a look at the video I made.   👉"
     }
   ]
 }

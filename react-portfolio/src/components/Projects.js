@@ -8,7 +8,7 @@ function DisplayProjects() {
     <div>
       <img
         className="plant-header"
-        src="https://i.imgur.com/E0vdYwA.jpg"
+        src="https://i.imgur.com/nKXPhYu.jpg"
         alt="plant background"
       ></img>
       <div className="container">
@@ -32,7 +32,16 @@ function DisplayProjects() {
                 alt="feel better in 5"
               ></img>
               <div class="card-body">
-                <p class="card-text">{data.projects[0].project1}</p>
+                <p class="card-text">
+                  {data.projects[0].project1}
+                  <a className="link" href="https://youtu.be/PQoG8CfdNBA">
+                    <img
+                      className="logo"
+                      src="https://i.imgur.com/Xk5b9ua.png"
+                      alt="youtube"
+                    ></img>
+                  </a>
+                </p>
               </div>
             </div>
           </div>
@@ -45,10 +54,7 @@ function DisplayProjects() {
                 alt="eco-warriors"
               ></img>
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+                <p class="card-text">{data.projects[0].project2}</p>
               </div>
             </div>
           </div>
