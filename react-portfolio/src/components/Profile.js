@@ -7,7 +7,7 @@ export default function DisplayProfile(props) {
   return (
     <div className="container-profile">
       <div className="row">
-        <div className="col-4">
+        <div className="profile col-lg-4 col-md-6 col-sm-12">
           <div>
             <img
               className="circular--square"
@@ -67,7 +67,7 @@ export default function DisplayProfile(props) {
             bethcollinsliv92@gmail.com
           </div>
         </div>
-        <div id="background-image" className="col-8"></div>
+        <div className="profile-background col-lg-8 col-md-6"></div>
       </div>
     </div>
   );

@@ -3,18 +3,16 @@
 }
 
 .container-profile {
-  margin-top: 28px;
+  margin: 28px auto;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-#background-image {
+.profile-background {
   background-image: url("../../images/IMG_0141.JPG");
-  background-size: contain;
+  background-size: 100%;
 }
 
-.col-4 {
+.profile {
   color: darkslategray;
   background-color: #ffd3b6;
   height: 650px;
