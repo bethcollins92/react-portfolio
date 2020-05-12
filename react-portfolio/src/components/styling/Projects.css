@@ -9,5 +9,11 @@
 }
 
 #project-card {
-  max-height: 290px;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 2rem;
+  }
 }

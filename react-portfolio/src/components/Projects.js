@@ -16,7 +16,7 @@ function DisplayProjects() {
         <div className="row">
           <div className="col">
             {" "}
-            <h3 className="mb-5 mt-3">
+            <h3 className="mb-5 mt-5">
               My Projects{" "}
               <span role="img" aria-label="pencil">
                 👩‍💻
@@ -25,7 +25,7 @@ function DisplayProjects() {
           </div>
         </div>
         <div className="row">
-          <div className="col-6">
+          <div className="col-md-6 col-sm-12">
             <Card
               image={"https://i.imgur.com/zef1QZk.png"}
               link={"https://youtu.be/PQoG8CfdNBA"}
@@ -34,7 +34,7 @@ function DisplayProjects() {
             />
           </div>
 
-          <div className="col-6">
+          <div className="col-md-6 col-sm-12">
             <Card
               image={"https://i.imgur.com/z5zFzOx.png"}
               link={"https://youtu.be/7luvYX2XGT8"}
@@ -43,8 +43,8 @@ function DisplayProjects() {
             />
           </div>
         </div>
-        <div className="row mt-5">
-          <Link id="back" className="link" to="/">
+        <div className="back">
+          <Link className="link" to="/">
             Back
           </Link>
         </div>
