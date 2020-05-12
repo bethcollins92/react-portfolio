@@ -16,7 +16,7 @@ function DisplayBlogs() {
         <div className="row">
           <div className="col">
             {" "}
-            <h3 className="mb-5 mt-3">
+            <h3 className="mb-5 mt-5">
               My Blog{" "}
               <span role="img" aria-label="pencil">
                 ✏️
@@ -25,7 +25,7 @@ function DisplayBlogs() {
           </div>
         </div>
         <div className="row">
-          <div className="col-6">
+          <div className="col-lg-6 col-sm-12">
             <BlogCard
               blogTitle={data.blogs[0].blog1.title}
               blogText={data.blogs[0].blog1.body}
@@ -36,7 +36,7 @@ function DisplayBlogs() {
             />
           </div>
 
-          <div className="col-6">
+          <div className="col-lg-6 col-sm-12">
             <BlogCard
               blogTitle={data.blogs[0].blog2.title}
               blogText={data.blogs[0].blog2.body}
@@ -45,8 +45,8 @@ function DisplayBlogs() {
           </div>
         </div>
 
-        <div className="row mt-5">
-          <Link id="back" className="link" to="/">
+        <div className="back">
+          <Link className="link" to="/">
             Back
           </Link>
         </div>
