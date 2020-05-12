@@ -1,5 +1,12 @@
-.container {
+.body {
+  margin: 0;
+}
+
+.container-profile {
   margin-top: 28px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #background-image {
@@ -33,11 +40,14 @@
   font-style: normal;
 }
 
-.link:hover {
-  color: darkslategray;
+.link:hover,
+link:focus {
+  color: grey;
 }
 
-.resume:hover {
+.resume:hover,
+.resume:focus {
   cursor: pointer;
   text-decoration: underline;
+  color: grey;
 }

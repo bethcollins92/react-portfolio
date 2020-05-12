@@ -10,10 +10,11 @@
   background-color: #f0f0f0;
 }
 
-.container {
-  font-family: "Manrope", sans-serif;
-  height: 65vw;
+.container-about-me {
+  width: 90%;
+  max-width: 700px;
   color: darkslategray;
+  margin: 0 auto;
 }
 
 .title {
@@ -23,6 +24,10 @@
   margin-top: 60px;
 }
 
-#back {
+.back {
   margin-top: 24px;
+  font-weight: 500;
+  text-align: left;
+  padding: 25px;
+  font-weight: 300;
 }

@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styling/Profile.css";
 import Modal from "./Modal";
 import { Link } from "react-router-dom";
 
 export default function DisplayProfile(props) {
-  const [resumeUrl, setResumeUrl] = useState("https://i.imgur.com/E4cqlck.png");
   return (
-    <div className="container">
+    <div className="container-profile">
       <div className="row">
         <div className="col-4">
           <div>
@@ -29,7 +28,7 @@ export default function DisplayProfile(props) {
           >
             Resume
           </p>
-          <Modal resume={resumeUrl} />
+          <Modal resume={"https://i.imgur.com/E4cqlck.png"} />
           <p>
             <Link className="link" to="/projects">
               Projects
