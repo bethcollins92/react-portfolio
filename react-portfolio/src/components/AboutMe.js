@@ -9,8 +9,8 @@ function DisplayAboutMe() {
       <div>
         <img
           className="plant-header"
-          src="https://i.imgur.com/YHlruNk.jpg"
-          alt="plant background"
+          src="https://i.imgur.com/6Kw4SWq.jpg"
+          alt="girl on a rock"
         ></img>
         <div className="container-about-me">
           <h3 className="title mb-5 mt-5">
