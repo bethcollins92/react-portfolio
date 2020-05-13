@@ -12,6 +12,14 @@
   padding-bottom: 1rem;
 }
 
+.back-projects {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  padding: 24px 0;
+}
+
 @media (max-width: 768px) {
   .card {
     margin-bottom: 2rem;

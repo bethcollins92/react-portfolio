@@ -43,7 +43,7 @@ function DisplayProjects() {
             />
           </div>
         </div>
-        <div className="back">
+        <div className="back-projects">
           <Link className="link" to="/">
             Back
           </Link>

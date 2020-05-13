@@ -45,7 +45,7 @@ function DisplayBlogs() {
           </div>
         </div>
 
-        <div className="back">
+        <div className="back-blog">
           <Link className="link" to="/">
             Back
           </Link>
