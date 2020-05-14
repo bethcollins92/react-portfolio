@@ -11,7 +11,7 @@ export default function DisplayProfile(props) {
           <div>
             <img
               className="circular--square"
-              src="https://i.imgur.com/FnLCjGL.jpg"
+              src="https://i.imgur.com/bDa4Q1Q.jpg"
               alt="portrait"
             ></img>
           </div>
