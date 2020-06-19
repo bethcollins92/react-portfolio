@@ -30,9 +30,7 @@ function DisplayBlogs() {
               blogTitle={data.blogs[0].blog1.title}
               blogText={data.blogs[0].blog1.body}
               image={data.blogs[0].blog1.image}
-              link={
-                "https://medium.com/@bethcollinsliv92/an-unlikely-career-change-ed2fe613cbee"
-              }
+              link={data.blogs[0].blog1.link}
             />
           </div>
 
@@ -41,6 +39,7 @@ function DisplayBlogs() {
               blogTitle={data.blogs[0].blog2.title}
               blogText={data.blogs[0].blog2.body}
               image={data.blogs[0].blog2.image}
+              link={data.blogs[0].blog2.link}
             />
           </div>
         </div>

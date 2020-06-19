@@ -17,12 +17,14 @@
       "blog1": {
         "title": "An unlikely career change 💉 ➡ 💻",
         "body": "This article is an insight into how and why I made the career change from dentist to developer. Read more here  👉",
-        "image": "https://i.imgur.com/KEyBPIZ.jpg"
+        "image": "https://i.imgur.com/KEyBPIZ.jpg",
+        "link": "https://medium.com/@bethcollinsliv92/an-unlikely-career-change-ed2fe613cbee"
       },
       "blog2": {
-        "title": "My Full Stack Bootcamp experience 💻",
-        "body": "How I felt before, during, and after the bootcamp I completed at CodeOp. Coming soon!",
-        "image": "https://i.imgur.com/2Ggx2ux.jpg"
+        "title": "A Coding Bootcamp experience 💻",
+        "body": "How I felt before, during, and after the bootcamp I completed at CodeOp. Read more here  👉",
+        "image": "https://i.imgur.com/2Ggx2ux.jpg",
+        "link": "https://medium.com/@bethcollinsliv92/a-coding-bootcamp-experience-2eccdc09f72a"
       }
     }
   ]
